@@ -60,10 +60,10 @@ function count() {
 
 function test() {
   let string1 = "Let's test your programming knowledge.";
-  let question = `Why do we use methods?\n
-    1. To repeat a statement multiple times.\n
-    2. To decompose a program into several small subroutines.\n
-    3. To determine the execution time of a program.\n
+  let question = `Why do we use methods?
+    1. To repeat a statement multiple times.
+    2. To decompose a program into several small subroutines.
+    3. To determine the execution time of a program.
     4. To interrupt the execution of a program.`;
 
   showDialogueWindow(string1);  
