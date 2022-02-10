@@ -71,17 +71,17 @@ function test() {
   while (true) {
     console.log(question);
     dialogueWindow.innerHTML = `🤖  ${question}`;
-		let answer = prompt(question, "");
+    let answer = prompt(question, "");
     
-		if (answer === "2") {
+    if (answer === "2") {
       let completed = "Completed, have a nice day!";
       showDialogueWindow(completed);
-			break;
-		} else {
+      break;
+    } else {
       let tryAgain = "Please, try again.";
       showDialogueWindow(tryAgain);
-		}
-	}
+    }
+  }
 }
   
 function end() {
