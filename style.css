@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: midnightblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.bot {
+  background-image: url("img/Robot.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 700px;
+}
+
+#dialogue-window {
+  background-color: deepskyblue;
+  border: 2px solid whitesmoke;
+  box-shadow: 1px 3px 7px mediumblue, 0 0 10px whitesmoke inset;
+  width: 600px;
+  height: 500px;
+  margin: 20px;
+  padding: 10px;
+  font-size: 40px;
+}
