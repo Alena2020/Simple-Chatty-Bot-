@@ -69,6 +69,7 @@ function test() {
       answer = prompt(question, "");
 	}
   showDialogueWindow("Completed, have a nice day!");	
+
 }
   
 function end() {
